@@ -4,7 +4,6 @@ DROP DATABASE IF EXISTS mock_users;
 CREATE DATABASE mock_users;
 USE mock_users;
 
-CRE
 CREATE TABLE users (
     user_id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(100) NOT NULL,
